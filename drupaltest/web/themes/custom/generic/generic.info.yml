@@ -1,0 +1,23 @@
+name: Generic
+type: theme
+description: 'Custom theme for bootstrap_barrio 5 generic.'
+package: Other
+core_version_requirement: ^8 || ^9 
+libraries:
+  - generic/global-styling
+  - generic/bootstrap
+  - generic/fonts
+base theme: bootstrap_barrio
+
+regions:
+  header: Header
+  branding: Branding
+  navigation: Main navigation
+  search: Search
+  featured: Featured
+  content: Content
+  right_sidebar: Right Sidebar
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom

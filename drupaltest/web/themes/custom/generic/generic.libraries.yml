@@ -1,0 +1,17 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      css/custom.css: {}
+  fonts:
+    css:
+      themes:
+       '//fonts.googleapis.com/css2?family=Cormorant&family=Lato:ital,wght@0,400;0,700;1,400': {type: external}>
+    
+      # css/bootstrap.min.css: {}
+  js:
+     js/custom.js: {}
+     js/bootstrap.min.js: {}
+   
+    

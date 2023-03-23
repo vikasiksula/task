@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* footer custom code by vikas*/
+.footer{
+    font-family: 'Lato', sans-serif;
+    background-color: #3f51b5;
+}
+#block-generic-thisisfooter{
+    border-bottom: 1px solid #6e7cc7;
+}
+.btm-footer-menu{
+    padding: 4rem 0rem;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.btm-footer-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btm-footer-menu ul li{
+    list-style-type: none;
+}
+.btm-footer-menu ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+#block-footersociallinks p{
+    text-align: center;
+    padding: 2rem 0px;
+    color: #fff;
+    font-size: 24px;
+}
+.region-footer-bottom{
+    background-color: #324191;
+}
+.footer--bottom p{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 1.2rem;
+    font-size: 18px;
+}
+
+.social-strip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.social-strip ul{
+    margin-bottom: 0px;
+}
+.social-strip ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social-strip ul li a{
+    font-size: 1rem;
+    padding: 10px 13px;
+    color: #fff;
+}
+/* mobile view css */
+
+
+    @media screen and (max-width:767px){
+        /* footer */
+     .btm-footer-menu ul{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .btm-footer-menu ul li a{
+        line-height: 1.8rem;
+        font-weight: 600;
+    }
+}
